@@ -1,0 +1,110 @@
+/* .glass {
+  width: 40%;
+  height: 40vh;
+  text-align: center;
+  margin: 45% auto;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.37),
+    -1px -1px 2px 0 rgba(0, 0, 0, 0.37);
+}*/
+body {
+  background-image: url("https://th.bing.com/th/id/R.bbd9d6d7cfe138ad7ccff57b8e2a73b6?rik=sanBd1jNrM6DWw&riu=http%3a%2f%2fwallpapercave.com%2fwp%2flzFISkc.jpg&ehk=WsC2dxyOTGpVuCq2W3tBrrTPndAPrJpdT7aHYk4Yrxs%3d&risl=&pid=ImgRaw&r=0");
+}
+.section {
+  width: 100%;
+  min-height: calc(100vh - 100px);
+}
+.formData {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+  backdrop-filter: blur(6px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  width: 40%;
+  box-sizing: border-box;
+  margin: auto;
+  margin-top: 8%;
+  display: flex;
+  flex-direction: column;
+  padding: 25px 50px;
+}
+.formHeading {
+  padding: 20px;
+  text-align: center;
+}
+.formHeading h3 {
+  margin-bottom: 10px;
+}
+
+.inputData {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10px;
+}
+.inputData label {
+  margin: 7px 0;
+  font-weight: bold;
+  font-size: 16px;
+}
+.inputData input {
+  padding: 12px 5px;
+}
+
+.inputData input:hover {
+  border: 2px solid green;
+}
+
+.inputData input::placeholder {
+  font-size: 14px;
+}
+.two {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding-bottom: 10px;
+}
+.showPass {
+  border: 2px solid whitesmoke;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin-bottom: 17px;
+  margin-right: 10px;
+  padding: 1px 15px;
+  padding-bottom: 5px;
+  cursor: pointer;
+}
+
+.showPass:hover {
+  border: 2px solid green;
+}
+
+.formData form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px 5px;
+  border: none;
+  background-color: blue;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+.formData form button:hover {
+  background-color: green;
+}
+.formData form p {
+  text-align: center;
+}
